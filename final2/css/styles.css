@@ -1,0 +1,47 @@
+body{background-color:rgb(213, 214, 212);}
+
+h1, h2, h3{
+    color: #286837;
+    font-family: "Baskerville", "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
+
+h3 {font-size: 22px;}
+
+p{
+    background-color: #9ccaa7;
+    border-radius: 15px; 
+    padding: 20px;
+    margin: 20px 0px;
+    font-family: "Baskerville", "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
+
+footer{margin-bottom: 20px;}
+
+img{
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+header{display: flex;}
+
+.flexed{display: flex;}
+
+section > p{
+    max-width: 35em;
+}
+
+a:hover img {
+    border: 2px solid #9ccaa7;
+    border-radius: 3px;
+}
+
+
+@media(max-width: 775px){
+    .flexed{display: block;}
+}
