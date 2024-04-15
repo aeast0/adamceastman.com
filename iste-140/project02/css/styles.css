@@ -1,0 +1,82 @@
+/*  **************************************** 
+    BASE
+    **************************************** */
+
+    body {
+        background-color: #EBF5EE;
+        color: #040d40;
+        font-family: 'Roboto Slab', 'Georgia', serif;
+        font-size: 18px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: 'VT323', 'Courier New', Courier, monospace;
+    }
+
+    h2 {
+        font-family: 'VT323', 'Courier New', Courier, monospace;
+        font-size: 30px;
+    }
+
+   
+    p, img{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        max-width: 35em;
+        overflow: auto;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .quote {
+        font-size: 25px; 
+    }
+
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1000px; 
+    }
+
+    .flex-container {display: grid;}
+
+
+section {
+    background-color: #DDCECD;
+    border-radius: 15px; 
+    column-count: 2;
+    padding: 40px;
+    margin: 20px 0px;
+}
+
+
+
+article > h1 {
+    font-size: 40px;
+}
+
+
+
+footer > h2 {
+    text-align: center;
+}
+
+footer {
+    padding-bottom: 20px;
+}
+
+.source {
+    padding: 10px 30px;
+}
+
+a {
+    color: #040d40;
+}

@@ -1,0 +1,25 @@
+STEP 2 NOTES.txt
+****************
+Transition for a single webpage to a website
+
+----------------
+[ ] Update h1 and nav links -> filenames
+
+----------------
+[ ] Replicate index.html x5
+    manhattan.html
+    brooklyn.html
+    queens.html
+    bronx.html
+    staten-island.html
+
+----------------
+[ ] Delete unneeded content from each webpage
+
+----------------
+[ ] Add "is-current" class to each menu
+    - the style for is-current needs to exist in the CSS
+
+
+****************
+NOTE: at this point, you have an "old fashioned" multipage website

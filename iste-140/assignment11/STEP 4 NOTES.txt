@@ -1,0 +1,30 @@
+STEP 4 NOTES.txt
+****************
+Fix broken "current page highlighter" using JavaScript
+
+----------------
+[ ] Edit nav.php to remove class="is-current" if necessary
+
+----------------
+[ ] Download jQuery plugin: menu-highlighter.js
+    create: js/
+    copy: menu-highlighter.js -> js/
+
+----------------
+[ ] Follow the instructions in menu-highlighter.js
+    - edit any of the borough files
+
+----------------
+[ ] Create inc/scripts.php file
+
+----------------
+[ ] Copy scripts from the edited borough file -> inc/scripts.php
+    - and save
+
+----------------
+[ ] Replace scripts code with PHP script
+    
+    <?php include "inc/script.php"; ?>
+
+----------------
+[ ] Repeat for each HTML file

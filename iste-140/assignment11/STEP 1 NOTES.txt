@@ -1,0 +1,49 @@
+STEP 1 NOTES.txt
+****************
+Create and style website navigation
+
+----------------
+[ ] Add link inside the H1
+
+<a href="#">New York City | The Most Populous City</a>
+
+
+----------------
+[ ]	Add the NAV element
+
+<nav class="main-menu">
+  <ul>
+    <li><a href="#">Manhattan</a></li>
+    <li><a href="#">Brooklyn</a></li>
+    <li><a href="#">Queens</a></li>
+    <li><a href="#">The Bronx</a></li>
+    <li><a href="#">Staten Island</a></li>
+  </ul>
+</nav>
+
+
+----------------
+[ ] Style the H1 link and the NAV
+
+/* *** H1 link style *** */
+.page-header a { 
+	text-decoration: none; 
+	padding: 5px;
+}
+.page-header a:hover { background-color: #BBB576; }
+.page-header a:active { background-color: LightGray; }
+
+/* *** Main Menu style *** */
+.main-menu ul {
+  display: flex;
+  column-gap: 20px;
+  
+  list-style: none;
+  padding-left: 0;
+}
+
+.main-menu a { padding: 5px; }
+
+a.is-current { 
+	color: white;
+	background-color: #BBB576;

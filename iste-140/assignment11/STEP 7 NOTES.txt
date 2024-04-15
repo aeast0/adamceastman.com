@@ -1,0 +1,27 @@
+STEP 7 NOTES.txt
+****************
+Optimize the CSS using PHP Variables
+
+----------------
+[ ] Add another PHP variable to the PHP block at the top of each webpage
+    BEWARE: quotes within quotes! (use single quotes here...)
+
+<?php 
+  $currentPage = ""; 
+  $customCSS = '';
+?>
+
+----------------
+[ ] Edit the inc/head.php file to ECHO the $customCSS variable
+
+<?php echo $customCSS; ?>
+
+----------------
+[ ] Move the LINK to the bxslider custom CSS 
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+from inc/head.php to:
+
+    index.php -> the $customCSS variable
+

@@ -1,0 +1,46 @@
+STEP 6 NOTES.txt
+****************
+Add a JS-powered slideshow to the website homepage
+
+----------------
+[ ] Add the JS to the HTML per the plugin's directions
+
+<script src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script>
+  $(".slider").bxSlider({
+    auto: true,
+    pause: 3000,
+    slideWidth: 300
+  });
+</script>
+
+
+----------------
+[ ] Add the CSS to the head.php file
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+
+----------------
+[ ] Move the H2:Introduction+paragraph to its own section.container
+
+----------------
+[ ] In the new section.container with the Introduction, add the HTML per the plugin's directions
+
+<div>
+  <div class="slider">
+    <div><img src="images/manhattan.jpg" alt="Manhattan"></div>
+    <div><img src="images/brooklyn.jpg" alt="Brooklyn"></div>
+    <div><img src="images/queens.jpg" alt="Queens"></div>
+    <div><img src="images/bronx.jpg" alt="Bronx"></div>
+    <div><img src="images/staten-island.jpg" alt="Staten Island"></div>
+  </div>
+</div>
+
+----------------
+[ ] Add the custom styles in CSS...
+
+/* ----- overrides ----- */
+#introduction.container { border-bottom: none; }
+#introduction.container div { margin: auto; }
+.bx-wrapper { margin: auto; }

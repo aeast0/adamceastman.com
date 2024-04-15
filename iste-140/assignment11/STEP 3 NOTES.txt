@@ -1,0 +1,32 @@
+STEP 3 NOTES.txt
+****************
+Transition to PHP and factor-out redundant HTML code
+
+----------------
+[ ] Convert to PHP files
+    - at this point forward: "in the blind"
+
+----------------
+[ ] Create "inc" folder
+
+----------------
+[ ] Create inc/nav.php file
+
+----------------
+[ ] Copy NAV code from any HTML file -> inc/nav.php
+    - and save
+
+----------------
+[ ] Replace NAV code with PHP script
+    
+    <?php include "inc/nav.php"; ?>
+
+----------------
+[ ] Repeat for each HTML file
+
+----------------
+[ ] Repeat for HEADER, HEAD, and FOOTER
+    create file in inc/
+    copy code -> new file
+    replace code with PHP script
+    repeat for each HTML file

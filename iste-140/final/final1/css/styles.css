@@ -1,0 +1,105 @@
+
+body{
+    color: darkgreen;
+    font-family: "Baskerville", "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    background-color: rgb(238, 244, 222);
+}
+
+header {
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    max-width: 10em;
+}
+
+section{
+    max-width: 35em;
+}
+
+
+
+section > img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
+footer{margin-bottom: 20px;}
+
+p,ul{
+    font-size: 16px;
+}
+
+.flexed{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.list{
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+.waterfall{
+    display: flex;
+    clear: both;
+}
+
+a:hover{
+    color: darkgreen;
+    background-color: white;
+}
+
+a:hover img {
+    border: 2px solid darkgreen;
+    border-radius: 1px;
+}
+
+a{color: plum;}
+
+
+    /* Media Queries for different viewport widths */
+    @media only screen and (max-width: 1900px) {
+        /* Styles for viewports less than or equal to 1900px wide */
+        p,ul {
+            font-size: 16px;
+        }
+    }
+    
+    @media only screen and (max-width: 1200px) {
+        /* Styles for viewports less than or equal to 1200px wide */
+        p,ul {
+            font-size: 14px;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        /* Styles for viewports less than or equal to 768px wide */
+        .grid-container, .page-aside, .section-1, .section-2, .section-3 {
+            width: 100%;
+            padding: 0 10px;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        /* Styles for viewports less than or equal to 480px wide */
+        h1, h2, h3 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1em;
+            margin: 5px;
+        }
+    }

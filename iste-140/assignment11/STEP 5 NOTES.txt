@@ -1,0 +1,20 @@
+STEP 5 NOTES.txt
+****************
+Optimize the TITLE in the HEAD using PHP variables
+
+----------------
+[ ] Add a PHP variable to line 1 (above the DOCTYPE) of each HTML file
+
+    <?php $currentPage = ""; ?>
+
+    ...and add the name of each borough in the quotes (upper case and spaces 
+    allowed); for index, use "The Most Populous City"
+
+----------------
+[ ] Edit the inc/head.php file to ECHO the $currentPage variable
+
+    <h1><a href="index.php">New York City | <?php echo $currentPage; ?></a></h1>
+
+
+****************
+NOTE: you can use this technique^ to optimize CSS links as well
